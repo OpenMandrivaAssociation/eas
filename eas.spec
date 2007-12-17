@@ -15,7 +15,6 @@ Source1:	eas.profile
 Source2:	easd.init
 Patch:		eas-2.0.00-fix-destdir-use.patch
 Patch1:		eas-2.0.00-default-user.patch
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Enterprise Audit Shell enables organizations to centrally control and audit
