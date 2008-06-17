@@ -111,15 +111,3 @@ rm -rf $RPM_BUILD_ROOT
 %{!?_with_unstable:* %(LC_ALL=C date +"%a %b %d %Y") %{packager} %{version}-%{release}}
 %{!?_with_unstable: - rebuild of %{version}-%{rel}}
 
-* Wed Jun 28 2006 Buchan Milne <bgmilne@mandriva.org> 2.0.00-3mdk2007.0
-- buildrequire openssl-devel
-
-* Fri Jun 09 2006 Buchan Milne <bgmilne@mandriva.org> 2.0.00-2mdv2007.0
-- add init script and user
-- own log directory
-
-* Fri May 19 2006 Buchan Milne <bgmilne@mandriva.org> 2.0.00-1mdk 
-- switch from sudosh to eas
-
-* Thu Apr 06 2006 Buchan Milne <bgmilne@mandriva.org> 1.8.2-1mdk
-- initial mandriva package
