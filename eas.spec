@@ -13,8 +13,9 @@ BuildRequires:	openssl-devel
 Source0: 	http://prdownloads.sourceforge.net/sudosh/%{name}-%{version}.tar.bz2
 Source1:	eas.profile
 Source2:	easd.init
-Patch:		eas-2.0.00-fix-destdir-use.patch
+Patch0:		eas-2.0.00-fix-destdir-use.patch
 Patch1:		eas-2.0.00-default-user.patch
+Patch2:		eas-2.0.00-fix-str-fmt.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
@@ -50,8 +51,9 @@ This package contains the client (shell) portion.
 
 %prep
 %setup -q
-%patch -p1 -b .destdir
+%patch0 -p1 -b .destdir
 %patch1 -p1 -b .defaultuser
+%patch2 -p0 -b .str
 chmod -x *.pdf
 
 %build
