@@ -1,6 +1,6 @@
 %global local_initrddir	%_initrddir
 %global _sysconfdir	%_sysconfdir/eas/
-%define rel 5
+%define rel 6
 
 Summary: 	Enterprise Audit Shell
 Name: 		eas
