@@ -1,0 +1,11 @@
+--- eas-2.0.00/src/easd_config.in~	2006-03-07 10:35:56.000000000 +0200
++++ eas-2.0.00/src/easd_config.in	2006-06-09 13:30:17.000000000 +0200
+@@ -191,7 +191,7 @@
+ #		Disabling StrictSignatures increases the risk for
+ #		manipulating audit logs.
+ #############################################################################
+-User 0
++User easd
+ 
+ #############################################################################
+ # Syntax: IdleTimeout { value }
