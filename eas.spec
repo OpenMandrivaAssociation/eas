@@ -8,7 +8,7 @@ Version: 	2.0.00
 Release: 	%mkrel %rel
 License: 	GPL
 Group: 		Shells
-URL: 		http://eas.strchr.net/
+URL: 		https://eas.strchr.net/
 BuildRequires:	openssl-devel
 Source0: 	http://prdownloads.sourceforge.net/sudosh/%{name}-%{version}.tar.bz2
 Source1:	eas.profile
