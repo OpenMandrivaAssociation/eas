@@ -9,6 +9,11 @@ Release: 	%mkrel %rel
 License: 	GPL
 Group: 		Shells
 URL: 		https://eas.strchr.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	openssl-devel
 Source0: 	http://prdownloads.sourceforge.net/sudosh/%{name}-%{version}.tar.bz2
 Source1:	eas.profile
