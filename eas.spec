@@ -5,7 +5,7 @@
 Summary: 	Enterprise Audit Shell
 Name: 		eas
 Version: 	2.0.00
-Release: 	%mkrel %rel
+Release: 	%rel.1
 License: 	GPL
 Group: 		Shells
 URL: 		https://eas.strchr.net/
